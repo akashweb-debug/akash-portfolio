@@ -1,0 +1,65 @@
+
+body{
+   
+    background: linear-gradient(135deg, rgba(222, 116, 222, 0.8), rgba(147, 107, 154, 0.8));
+}
+
+form{
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    margin: auto;
+background: linear-gradient(135deg, rgba(206, 48, 206, 0.8), rgba(138, 43, 226, 0.8));
+  margin-top: 120px;
+    
+}
+
+h1{
+    margin-left: 100px;
+    color: rgb(237, 162, 237);
+}
+.login-form{
+  width: 100px;
+margin-left: 50px;
+}
+
+
+.login-form input{
+background: linear-gradient(135deg, rgba(236, 106, 236, 0.8), rgba(212, 185, 238, 0.8));
+     width: 200px;
+      margin-bottom: 25px; /* 👈 Adds gap between inputs */
+      border: none;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.8) ;
+      padding: 8px;
+      font-size: 14px;
+     
+
+
+}
+.login-form button{
+width: 120px;
+      padding: 10px;
+      margin-top: 20px;
+     background: linear-gradient(135deg, rgba(206, 48, 206, 0.8), rgba(138, 43, 226, 0.8));
+  color: #fff;
+    
+     margin-left: 40px;
+      border: none;
+      cursor: pointer;
+}
+#back{
+    background: none;
+      border: none;
+      outline: none;
+      font-size: 30px;
+      color: rgba(0, 0, 0, 0.8);
+}
+
+::placeholder{
+    color:black;
+
+}
+button:hover{
+    background-color: rgb(24, 3, 246);
+    color: rgb(248, 242, 242);
+}

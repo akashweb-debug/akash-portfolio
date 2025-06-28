@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  /* keeps it on top of other elements */
+  background: linear-gradient(135deg, rgba(206, 48, 206, 0.8), rgba(138, 43, 226, 0.8));
+  color: #fff;
+  ;
+  /* or any solid color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* optional: add subtle shadow */
+}
+
+.navbar .nav-link {
+  background: linear-gradient(135deg, rgba(255, 0, 255, 0.8), rgba(132, 0, 255, 0.8));
+  color: #fff;
+  margin-right: 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+
+
+}
+
+/* Optional Hover Effect */
+.navbar .nav-link:hover {
+  background: rgba(255, 20, 147, 0.8);
+  /* neon pink highlight */
+  color: white;
+}
+
+.navbar-toggler {
+background: transparent;
+  border: none;
+  width: auto;
+  color: #fff;
+  
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Outfit', sans-serif;
+
+
+}
+
+
+.about #imgzoom1{
+ box-shadow: 0 4px 30px rgba(74, 73, 74, 0.8); 
+ margin-top: 20px;
+ margin-right: 100px;
+}
+.about h1{
+ margin-left: 400px;
+  width: 100px;
+  /* border: 3px solid rgba(255, 0, 255, 0.8); */
+  margin: 0;
+  margin-bottom: 20px; /* Reduced gap */
+  min-height: min-content;
+  /* box-shadow: 0 4px 10px rgba(255, 0, 255, 0.8);  */
+  color: ghostwhite;
+  text-transform: uppercase;
+  color: grey;
+}
+.about .span-h1{
+  color: #fff;
+   border-bottom: 3px solid rgba(255, 0, 255, 0.8) ;
+}
+
+
+
+/* Small: Mobile Phones */
+@media (max-width: 576px) {
+  .about h1 {
+    margin: 50px auto;
+    width: 40%;
+    font-size: 22px;
+    text-align: center;
+    border-width: 2px;
+  
+    
+  }
+
+  #imgzoom1 {
+  margin: 7px auto; /* reduce top margin */
+    display: block;
+    max-width: 90%;
+   
+   margin-left: 30px;
+  }
+
+  .content1 {
+display: inline;
+  
+}
+
+.content1 p {
+  margin: 30px 0 0 30px;
+  margin-bottom: 10px;
+}
+
+}
+
+/* Medium: Tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .about h1 {
+    margin: 30px auto;
+    width: 80%;
+    font-size: 26px;
+    text-align: center;
+
+  }
+
+  #imgzoom1 {
+    margin: 30px auto;
+    display: block;
+    max-width: 80%;
+    margin-left: 40px;
+  }
+}
+
+/* Large: Desktops and laptops */
+@media (min-width: 769px) {
+  .about h1 {
+    margin-left: 400px;
+    width: 300px;
+    font-size: 28px;
+   
+  }
+
+
+}
+
+ .content1 {
+  margin-top: 100px;
+  color: #eaeaea;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 30px;
+}
+
+.content1 p {
+  font-size: 16px;
+  line-height: 1.6;
+  
+}
+
+.content1 span {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgba(255, 0, 255, 0.8);
+}
+
+.skills {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  max-width: 600px;
+ 
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+    margin-right: 50px;
+}
+
+.skill span {
+  width: 120px; 
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.line {
+   height: 9px;
+  border-radius: 5px;
+ margin-top: 10px;
+ 
+}
+
+
+/* Individual Skill Colors */
+.html {
+ background: linear-gradient(
+  to right,
+  rgba(255, 105, 180, 0.8),
+  rgba(138, 43, 226, 0.7)
+);
+  width: 100%;
+  margin-left: 5px;
+}
+
+.css {
+ background: linear-gradient(
+  to right,
+  rgba(255, 105, 180, 0.8),
+  rgba(138, 43, 226, 0.7)
+);
+  width: 80%;
+  margin-right: 20px;
+}
+
+.js {
+  background: linear-gradient(
+  to right,
+  rgba(255, 105, 180, 0.8),
+  rgba(138, 43, 226, 0.7)
+);
+  width: 50%;
+   margin-right: 9px;
+}
+.separator-line {
+  height: 2px;
+  background-color: #999;
+  margin: 20px 0;
+}
+.react {
+  background: linear-gradient(
+  to right,
+  rgba(255, 105, 180, 0.8),
+  rgba(138, 43, 226, 0.7)
+);
+  width: 30%;
+   margin-right: 5px;
+}
+
+/* 
+    .bottom-image {
+      width: 100%;
+      text-shadow: none;
+      margin-bottom: 500px;
+      border-bottom: 50px;
+    } */
+
+
+    
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px;
+ background: linear-gradient(to right, #c008d8, #ff1493);
+}
+
+.box {
+  width: 250px;
+  height: 200px;
+  border-left: 2px solid rgb(6, 5, 5);
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: black;
+  
+  
+}
+
+
+
+.box h1 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+ font-weight: bold;
+  background: linear-gradient(to right, #c008d8, #ff1493); /* blue to green */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* for Firefox */
+  
+}
+
+.box span {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  color: white;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .box {
+    width: 90%;
+      }
+
+}
+
+
+#review-nextpage{
+   
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+   background: linear-gradient(to right, #c008d8, #ff1493); /* blue to green */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #fff;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 85px;
+}
+
+@media screen and (max-width: 786px) {
+  #review-nextpage {
+   
+    margin-left: 110px;
+    
+  }
+}

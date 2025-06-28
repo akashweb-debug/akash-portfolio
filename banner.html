@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protfolio</title>
+  <link rel="stylesheet" href="banner.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body>
+ 
+  <div id="custom-alert" class="alert-box">
+  <p id="alert-text"></p>
+  <button onclick="closeAlert()">OK</button>
+</div>
+
+<div id="loginpopup" class="loginopop">
+  <p id="alert-text2" ></p>
+  <button onclick="loginform()">login</button>
+  <button  onclick="cancel()">Cancal</button>
+</div>
+
+  <nav class="navbar navbar-expand-lg py-3 ">
+    <div class="container-fluid">
+      <div class="logo">
+        <span>⚡</span>
+        <span>Akash.Dev</span>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap:2">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">skills</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div id="page" class="loginopop">
+  <p id="alert-text3" ></p>
+  
+  
+</div>
+
+  <div class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 text-center">
+          <div class="img-border">
+            <img id="imgzoom" src="Picsart_25-06-18_11-12-49-229.jpg" alt="Portfolio Image" class="img-fluid"
+              style="max-height: 400px;">
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="content">
+            <div class="marquee">
+              <h1>Welcome to My Portfolio..</h1>
+            </div>
+            <h3>Hi, I'm Akash MERN Stack Developer</h3>
+            <p>I specialize in building dynamic, full-stack web applications using MongoDB, Express.js,  and
+              Node.js. With a focus on performance, clean code, and modern UI/UX, I turn ideas into scalable digital
+              solutions.
+            </p>
+            <p>I create full-stack web apps with modern design and high performance using MongoDB, Express, and
+              Node.js.
+            </p>
+            <p>Whether you're a startup, business, or fellow developer — let’s build something amazing together. Explore
+              my portfolio, and feel free to reach out!</p>
+
+            <button id="start">
+              <i class="fas fa-play"></i> GetStart     
+            </button>
+            <button id="downloadbtn"class="Download">
+              <i class="fas fa-download"></i> project.pdf
+            </button>
+
+            <div class="social-icons">
+              <a href="https://www.facebook.com/r.php/" target="_blank"><i id="facebook" class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/accounts/login/" target="_blank"><i id="inst" class="fab fa-instagram"></i></a>
+              <a href="https://web.whatsapp.com/" target="_blank"><i id="whatsapp" class="fab fa-whatsapp"></i></a>
+              <a href="https://github.com/" target="_blank"><i id="github" class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+
+
+
+
+    
+  <div id="aboutnext">
+    <p id="alert-text4"></p>
+    
+  </div>
+
+  
+<hr>
+
+    <script src="banner.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+</html>
